@@ -1,8 +1,10 @@
 import requests
 import requests,json
 from langdetect import detect
-from key import KEY
+
 import pandas
+
+KEY = "YOUR ACCESS TOKEN"
 
 headers = {
 
